@@ -6,12 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Krystian Kolad</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="CSS/index.css" />
-    <script src="JS/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <button class="tablink" onclick="openPage('Home', this, '#33BBFF')">Home</button>
+    <button class="tablink" id="defaultOpen" onclick="openPage('Home', this, '#33BBFF')">Home</button>
     <button class="tablink" onclick="openPage('Experience', this, '#33BBFF')">Experience</button>
     <button class="tablink" onclick="openPage('Skills', this, '#33BBFF')">Skills</button>
     <button class="tablink" onclick="openPage('Projects', this, '#33BBFF')">Projects</button>
@@ -19,23 +24,55 @@
     <button class="tablink" onclick="openPage('Links', this, '#33BBFF')">Links</button>
 
     <div id="Home" class="tabcontent">
-        Home
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum augue nunc, mattis bibendum porttitor et, tempus pharetra elit. Sed semper mauris vel ex efficitur bibendum. Sed lacinia rhoncus lectus, in congue urna iaculis quis. Fusce bibendum, neque eu vehicula scelerisque, orci enim commodo lorem, a tempus lorem orci id felis. Sed eget volutpat risus. Pellentesque nec nisl convallis, maximus urna sit amet, euismod tortor. Sed gravida consequat porta. Sed molestie lorem id orci posuere fermentum. Donec viverra, nunc ac tristique ultrices, dolor augue iaculis odio, sit amet interdum nisl felis non neque. Pellentesque ut ullamcorper leo, et faucibus nisi. Sed tincidunt pharetra ligula vitae elementum. Nulla sit amet diam sem. Nulla vitae viverra sem.
     </div>
+
     <div id="Experience" class="tabcontent">
-        Experience
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    Mauris vitae nibh arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer aliquet eros a nulla tempor maximus. Suspendisse ut libero eros. Pellentesque fermentum euismod arcu. Fusce a nulla iaculis, vulputate arcu eget, vestibulum ex. Fusce ac convallis tortor. Donec luctus vel neque quis tempus. Quisque lobortis lorem tellus, a semper orci vestibulum ut. Vestibulum vel diam in arcu tincidunt tristique non eu metus. Nam ac nibh rutrum, faucibus velit sed, tincidunt nibh. Aenean et diam semper, efficitur magna in, rhoncus velit. Duis sed libero tempor, dictum elit in, tincidunt nunc. Curabitur dapibus dapibus mi nec tincidunt.
+                </div>
+
+                <div class="item">
+                    Maecenas gravida dolor semper, suscipit nulla vitae, eleifend nisl. Ut varius lobortis ipsum at viverra. Vestibulum ut suscipit quam. Cras aliquam velit odio, eu fermentum libero auctor ut. Phasellus vitae vestibulum ex. Nulla finibus velit a mauris sollicitudin blandit. Ut hendrerit venenatis odio vel consequat. Aliquam nunc purus, malesuada sit amet tempor non, varius a nunc. Praesent convallis, odio a sodales tempor, augue sem aliquam dolor, id tincidunt nibh tellus quis eros. Morbi sed risus a lectus condimentum faucibus. Sed hendrerit nunc in turpis sollicitudin, a ullamcorper eros luctus. Donec nisi leo, convallis at facilisis tristique, commodo vel quam. Nullam tellus eros, sodales et facilisis eget, egestas id leo. Quisque consequat et dui sodales venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+
+                <div class="item">
+                    Morbi at erat at velit accumsan tincidunt. Maecenas fermentum magna lectus, sed vehicula enim lacinia ut. Nullam maximus facilisis dui. Duis leo lorem, elementum sit amet dapibus at, mattis vestibulum enim. Suspendisse convallis nisi tempor nisi faucibus convallis. Aenean consectetur eros vel urna fringilla, a dapibus velit congue. Proin in nisi dignissim arcu auctor blandit. Vestibulum quis eros in neque suscipit aliquet in a lorem.
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
     </div>
+
     <div id="Skills" class="tabcontent">
-        Skills
+        Donec pharetra, odio eu cursus sagittis, urna nulla euismod erat, nec pharetra turpis ligula dignissim orci. Sed fringilla id augue sed vestibulum. Vivamus fringilla purus quis auctor consectetur. Nullam accumsan pulvinar elit non blandit. Duis posuere mauris vel lacus rutrum fringilla. Suspendisse a tortor purus. Quisque tincidunt aliquam risus. Pellentesque vestibulum venenatis neque vel viverra. Sed et diam dictum, viverra augue ut, pulvinar mauris. Mauris sit amet tincidunt nunc. Etiam risus nunc, finibus et nibh et, commodo cursus tortor. Quisque fermentum ante fermentum, maximus magna eget, convallis orci. Proin interdum, nisi nec porttitor sollicitudin, diam quam venenatis nunc, eget elementum eros augue quis nibh. Fusce convallis semper arcu a volutpat. Aliquam aliquet urna felis, sed molestie mauris blandit vitae.
     </div>
+
     <div id="Projects" class="tabcontent">
-        Projects
+        Maecenas eu varius justo. Maecenas ac lacus nulla. Nunc elementum vitae metus et finibus. Aenean metus mi, dapibus et nisl eu, faucibus maximus enim. Donec facilisis, arcu nec porttitor finibus, tellus felis accumsan dui, vel egestas quam turpis a ante. Nam pretium tristique lorem vitae aliquam. Vestibulum scelerisque, metus ut fringilla maximus, orci erat cursus justo, eu ultricies elit felis eu lacus. Vivamus ullamcorper, ipsum tristique tristique vestibulum, dui quam facilisis risus, ac gravida dui felis in felis. Vestibulum sit amet tortor at lorem hendrerit congue. Phasellus id sapien nisl.
     </div>
+
     <div id="Schools" class="tabcontent">
-        Schools
+        Phasellus non turpis tristique, molestie augue sit amet, gravida sapien. Duis et turpis pulvinar, congue lacus nec, cursus arcu. Donec iaculis tristique elit, et sodales elit semper in. Duis odio mi, placerat eu eros at, tempor egestas felis. Etiam pretium efficitur laoreet. Cras mollis dapibus ligula, eget ultricies justo lacinia nec. Donec a elit dui. Etiam rutrum, sem quis lobortis feugiat, lectus dolor eleifend mi, nec lobortis enim mauris in eros. Donec bibendum magna tellus, a tempus ante vehicula eget. Quisque faucibus ornare placerat. Sed lacinia mauris a ante hendrerit, pretium accumsan risus suscipit. Donec suscipit eu ipsum varius semper. Duis at purus at sem iaculis sagittis luctus non tellus. Maecenas maximus nunc massa, eu condimentum erat dapibus vel. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
     </div>
+
     <div id="Links" class="tabcontent">
-        Links
+        Phasellus iaculis auctor ligula id feugiat. Suspendisse potenti. Sed ligula felis, congue in molestie at, euismod in lacus. Duis et sodales nibh. Fusce sed dui elit. Sed nec laoreet odio. Duis quis imperdiet massa. Vestibulum eu enim sem. Nulla ut lorem eget nisl imperdiet pulvinar eu quis lectus. Nam nec gravida odio. Cras fringilla eget erat fringilla pulvinar. Sed posuere ullamcorper posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla aliquam ullamcorper maximus.
     </div>
 </body>
 
 </html>
+<script src="JS/index.js"></script>
