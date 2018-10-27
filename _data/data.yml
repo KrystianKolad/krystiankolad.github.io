@@ -1,0 +1,111 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output. 
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Krystian Kolad
+    tagline: .Net Developer
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: Krystian.Kolad@gmail.com
+    phone: 721 909 444
+    website: krystiankolad.wordpress.com
+    linkedin: krystian-kolad
+    github: KrystianKolad
+    gitlab:
+    bitbucket:
+    twitter: '@KrystianKolad'
+    stack-overflow: 6697911/krystian-kolad # Number/Username, e.g. 123456/alandoe
+    codewars:
+
+    languages:
+      - idiom: Polish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+        
+    interests:
+      - item: DevOps
+        link:
+      
+      - item: Docker
+
+education:
+    - degree: Computer Science
+      university: Wrocław University of Technology
+      time: 2015 - current
+
+experiences:
+    - role: Junior .Net Developer
+      time: 2018 - Present
+      company: Ceneo.pl 
+      details: |
+        Working with .Net technologies.
+
+          - .Net
+          - MS SQL 
+          - Azure
+
+    - role: Junior .Net Developer
+      time: 2017 - 2018
+      company: Krajowy Rejestr Długłów BIG S.A.
+      details: |
+        Working with .Net technologies.
+
+          - .Net 
+          - MS SQL
+
+projects:
+    title: Projects
+    intro: >
+      My projects in which I am learning technologies. 
+
+    assignments:
+      - title: DotnetThx
+        link: "https://github.com/KrystianKolad/DotnetThx"
+        tagline: "Simple .Net core tool to get informations about all packages you are currently using in your project."
+
+      - title: DockerPlayground
+        link: "https://github.com/KrystianKolad/DockerPlayground"
+        tagline: "Small project with various docker and kubernetes samples"
+
+      - title: Starveler
+        link: "https://github.com/KrystianKolad/Starveler"
+        tagline: "Simple project in which I am learning to use rabbitmq and mssql with entity framework core"
+
+      - title: Mongod
+        link: "https://github.com/KrystianKolad/Mongod"
+        tagline: "Simple project in which I am learning hot to use mongodb"
+
+      - title: Mailer
+        link: "https://github.com/KrystianKolad/Mailer"
+        tagline: "Functional app which purpose is to send emails"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: .Net
+        level: 70%
+
+      - name: Docker
+        level: 90%
+
+      - name: Kubernetes
+        level: 30%
+
+      - name: Azure
+        level: 30%
+
+      - name: T-SQL
+        level: 40%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
