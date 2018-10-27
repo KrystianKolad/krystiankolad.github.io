@@ -44,20 +44,20 @@ education:
 
 experiences:
     - role: Junior .Net Developer
-      time: 2018 - Present
+      time: August 2018 - Present
       company: Ceneo.pl 
       details: |
-        Working with .Net technologies.
+        Creating applications in .Net Framework and .Net Core, modeling databases, working with Microsoft Azure.
 
           - .Net
           - MS SQL 
           - Azure
 
     - role: Junior .Net Developer
-      time: 2017 - 2018
+      time: July 2017 - August 2018
       company: Krajowy Rejestr Długłów BIG S.A.
       details: |
-        Working with .Net technologies.
+        Creating services in .Net Framework, modeling databases.
 
           - .Net 
           - MS SQL
