@@ -35,6 +35,8 @@ sidebar:
       - item: DevOps
       
       - item: Docker
+      
+      - item: Kubernetes
 
 education:
     - degree: Computer Science
@@ -92,24 +94,41 @@ projects:
         link: "https://github.com/KrystianKolad/Mailer"
         tagline: "An email sender function in Azure WebJobs SDK."
 
-skills:
-    title: Skills &amp; Proficiency
+knowledge:
+    title: Knowledge
 
-    toolset:
-      - name: .NET
-        level: 70%
+    types:
+      - name: Technologies
+        skills: |
+          - C# (.NET Framework and .NET Core)
+          - Transact-SQL
+          - NUnit
+          - ASP.NET and ASP.NET Core
+          - Entity Framework
+          - Dapper
+          - Docker
+          - Kubernetes
+          - basic knowledge of cloud computing (Microsoft Azure)
+          - basic Bash scripting
+          - LaTeX
 
-      - name: Docker
-        level: 80%
+      - name: Tools
+        skills: |
+          - Visual Studio 2017
+          - Visual Studio Code
+          - MS SQL Management Studio
+          - Azure Data Studio
+          - Git (console and Git Extensions)
+          - Docker CLI
+          - Kubernetes CLI
 
-      - name: Kubernetes
-        level: 30%
+      - name: Practices
+        skills: |
+          - TDD
+          - SCRUM
+          - SOLID principles
+          - Kanban
 
-      - name: Azure
-        level: 40%
-
-      - name: T-SQL
-        level: 40%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

@@ -1,5 +1,5 @@
-{% assign skills = site.data.data.skills %}
-{% if skills %}
+{% assign knowledge = site.data.data.knowledge %}
+{% if knowledge %}
 <section class="skills-section section">
 
   <h2 class="section-title">
@@ -7,20 +7,21 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
     </span>
-    {{ skills.title }}
+    {{ knowledge.title }}
   </h2>
 
   <div class="skillset">
 
-    {% for skill in skills.toolset %}
+    {% for type in knowledge.types %}
     <div class="item">
 
-      <h3 class="level-title">{{ skill.name }}</h3>
+      <h3 class="level-title">{{ type.name }}</h3>
 
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
-        </div>
-      </div><!--//level-bar-->
+      <br />
+
+      <div class="details">
+        {{ type.skills | markdownify }}
+      </div><!--//details-->
 
     </div><!--//item-->
     {% endfor %}
