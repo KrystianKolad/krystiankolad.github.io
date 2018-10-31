@@ -46,7 +46,7 @@ experiences:
       time: August 2018 - Present
       company: Ceneo.pl 
       details: |
-        Creating applications and REST API using .Net Framework and .Net Core with C# language, modeling relational databases using Transact-SQL, working with Microsoft Azure. Designing solutions for proper communication with Google Ads Api.
+        Creating applications and REST APIs using .Net Framework and .Net Core with C# language. Modeling relational databases using Transact-SQL. Working with Microsoft Azure. Designing solutions for proper communication with Google Ads API.
 
           - .Net Framework
           - .Net Core
@@ -59,7 +59,7 @@ experiences:
       time: July 2017 - August 2018
       company: Krajowy Rejestr Długłów BIG S.A.
       details: |
-        Creating WCF services and REST API using .Net Framework and C# language, modeling relational databases using Transact-SQL.
+        Creating WCF services and REST APIs using .Net Framework and C# language. Modeling relational databases using Transact-SQL.
 
           - .Net Framework
           - C#
@@ -69,16 +69,16 @@ experiences:
 projects:
     title: Projects
     intro: >
-      My projects in which I am learning technologies. Most of them are small, basic projects which show how something should, in my opinion, be done.
+      These are the projects which I am using to develop myself in technologies and they are mostly small solutions. They are meant to emphasize how some patterns or approaches should be accomplished, according to my knowledge and experience.
 
     assignments:
       - title: DotnetThx
         link: "https://github.com/KrystianKolad/DotnetThx"
-        tagline: "Simple .Net core tool to get informations about all packages you are currently using in your project."
+        tagline: "Simple .Net core tool to get information about all packages you are currently using in your project."
 
       - title: DockerPlayground
         link: "https://github.com/KrystianKolad/DockerPlayground"
-        tagline: "Small project with various docker and kubernetes samples"
+        tagline: "A small project with various docker and kubernetes samples"
 
       - title: Starveler
         link: "https://github.com/KrystianKolad/Starveler"
