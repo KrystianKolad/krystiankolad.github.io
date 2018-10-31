@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Krystian Kolad
-    tagline: .Net Developer
+    tagline: .NET Developer
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -42,26 +42,26 @@ education:
       time: 2015 - Present
 
 experiences:
-    - role: Junior .Net Developer
+    - role: Junior .NET Developer
       time: August 2018 - Present
       company: Ceneo.pl 
       details: |
-        Creating applications and REST APIs using .Net Framework and .Net Core with C# language. Modeling relational databases using Transact-SQL. Working with Microsoft Azure. Designing solutions for proper communication with Google Ads API.
+        Creating applications and REST APIs using .NET Framework and .NET Core with C# language. Modeling relational databases using Transact-SQL. Working with Microsoft Azure. Designing solutions for proper communication with Google Ads API.
 
-          - .Net Framework
-          - .Net Core
+          - .NET Framework
+          - .NET Core
           - C#
           - T-SQL
           - MS SQL 
           - Azure
 
-    - role: Junior .Net Developer
+    - role: Junior .NET Developer
       time: July 2017 - August 2018
       company: Krajowy Rejestr Długłów BIG S.A.
       details: |
-        Creating WCF services and REST APIs using .Net Framework and C# language. Modeling relational databases using Transact-SQL.
+        Creating WCF services and REST APIs using .NET Framework and C# language. Modeling relational databases using Transact-SQL.
 
-          - .Net Framework
+          - .NET Framework
           - C#
           - T-SQL
           - MS SQL
@@ -74,7 +74,7 @@ projects:
     assignments:
       - title: DotnetThx
         link: "https://github.com/KrystianKolad/DotnetThx"
-        tagline: "Simple .Net core tool to get information about all packages you are currently using in your project."
+        tagline: "Simple .NET core tool to get information about all packages you are currently using in your project."
 
       - title: DockerPlayground
         link: "https://github.com/KrystianKolad/DockerPlayground"
@@ -86,7 +86,7 @@ projects:
 
       - title: Mongod
         link: "https://github.com/KrystianKolad/Mongod"
-        tagline: "Simple project in which I am learning hot to use mongodb"
+        tagline: "Simple project in which I am learning how to use mongodb"
 
       - title: Mailer
         link: "https://github.com/KrystianKolad/Mailer"
@@ -96,7 +96,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: .Net
+      - name: .NET
         level: 70%
 
       - name: Docker
