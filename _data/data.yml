@@ -74,23 +74,23 @@ projects:
     assignments:
       - title: DotnetThx
         link: "https://github.com/KrystianKolad/DotnetThx"
-        tagline: "Simple .NET core tool to get information about all packages you are currently using in your project."
+        tagline: "Tool to analyse all the nuget packages installed in the project."
 
       - title: DockerPlayground
         link: "https://github.com/KrystianKolad/DockerPlayground"
-        tagline: "A small project with various docker and kubernetes samples"
+        tagline: "Various Docker and Kubernetes samples."
 
       - title: Starveler
         link: "https://github.com/KrystianKolad/Starveler"
-        tagline: "Simple project in which I am learning to use rabbitmq and mssql with entity framework core"
+        tagline: "RabitMQ and MSSQL playground created to experiment with this stack using Entity Framework."
 
       - title: Mongod
         link: "https://github.com/KrystianKolad/Mongod"
-        tagline: "Simple project in which I am learning how to use mongodb"
+        tagline: "An MVC application with MongoDB project for learning purposes."
 
       - title: Mailer
         link: "https://github.com/KrystianKolad/Mailer"
-        tagline: "Functional app which purpose is to send emails"
+        tagline: "An email sender function in Azure WebJobs SDK."
 
 skills:
     title: Skills &amp; Proficiency
