@@ -47,9 +47,12 @@ experiences:
       time: August 2018 - Present
       company: Ceneo.pl 
       details: |
-        Creating applications in .Net Framework and .Net Core, modeling databases, working with Microsoft Azure.
+        Creating applications and REST Apis using .Net Framework and .Net Core with C# language, modeling relational databases using Transact-SQL, working with Microsoft Azure. Designing solutions for proper communication with Google Ads Api.
 
-          - .Net
+          - .Net Framework
+          - .Net Core
+          - C#
+          - T-SQL
           - MS SQL 
           - Azure
 
@@ -57,15 +60,17 @@ experiences:
       time: July 2017 - August 2018
       company: Krajowy Rejestr Długłów BIG S.A.
       details: |
-        Creating services in .Net Framework, modeling databases.
+        Creating WCF services and REST Api using .Net Framework and C# language, modeling relational databases using Transact-SQL.
 
-          - .Net 
+          - .Net Framework
+          - C#
+          - T-SQL
           - MS SQL
 
 projects:
     title: Projects
     intro: >
-      My projects in which I am learning technologies. 
+      My projects in which I am learning technologies. Most of them are small, basic projects which shows how something should, in My opinion, be done.
 
     assignments:
       - title: DotnetThx
@@ -96,13 +101,13 @@ skills:
         level: 70%
 
       - name: Docker
-        level: 90%
+        level: 80%
 
       - name: Kubernetes
         level: 30%
 
       - name: Azure
-        level: 30%
+        level: 40%
 
       - name: T-SQL
         level: 40%
