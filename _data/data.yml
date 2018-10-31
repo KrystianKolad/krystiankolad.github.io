@@ -33,21 +33,20 @@ sidebar:
         
     interests:
       - item: DevOps
-        link:
       
       - item: Docker
 
 education:
     - degree: Computer Science
       university: Wrocław University of Technology
-      time: 2015 - current
+      time: 2015 - Present
 
 experiences:
     - role: Junior .Net Developer
       time: August 2018 - Present
       company: Ceneo.pl 
       details: |
-        Creating applications and REST Apis using .Net Framework and .Net Core with C# language, modeling relational databases using Transact-SQL, working with Microsoft Azure. Designing solutions for proper communication with Google Ads Api.
+        Creating applications and REST API using .Net Framework and .Net Core with C# language, modeling relational databases using Transact-SQL, working with Microsoft Azure. Designing solutions for proper communication with Google Ads Api.
 
           - .Net Framework
           - .Net Core
@@ -60,7 +59,7 @@ experiences:
       time: July 2017 - August 2018
       company: Krajowy Rejestr Długłów BIG S.A.
       details: |
-        Creating WCF services and REST Api using .Net Framework and C# language, modeling relational databases using Transact-SQL.
+        Creating WCF services and REST API using .Net Framework and C# language, modeling relational databases using Transact-SQL.
 
           - .Net Framework
           - C#
@@ -70,7 +69,7 @@ experiences:
 projects:
     title: Projects
     intro: >
-      My projects in which I am learning technologies. Most of them are small, basic projects which shows how something should, in My opinion, be done.
+      My projects in which I am learning technologies. Most of them are small, basic projects which show how something should, in My opinion, be done.
 
     assignments:
       - title: DotnetThx
