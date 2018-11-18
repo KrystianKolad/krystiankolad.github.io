@@ -94,6 +94,10 @@ projects:
         link: "https://github.com/KrystianKolad/Mailer"
         tagline: "An email sender function in Azure WebJobs SDK."
 
+      -title: ConsulOnVagrant
+       link: "https://github.com/KrystianKolad/ConsulOnVagrant"
+       tagline: "Three node consul configuration using vagrant"
+
 knowledge:
     title: Knowledge
 
