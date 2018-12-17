@@ -92,7 +92,7 @@ projects:
 
       - title: Mailer
         link: "https://github.com/KrystianKolad/Mailer"
-        tagline: "An email sender function in Azure WebJobs SDK."
+        tagline: "An email sender function in Azure Functions SDK nad Blazor."
 
       - title: ConsulOnVagrant
         link: "https://github.com/KrystianKolad/ConsulOnVagrant"
