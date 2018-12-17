@@ -125,6 +125,9 @@ knowledge:
           - Git (console and Git Extensions)
           - Docker CLI
           - Kubernetes CLI
+          - Terraform
+          - Vagrant
+          - Consul
 
       - name: Practices
         skills: |
