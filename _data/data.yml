@@ -118,7 +118,7 @@ knowledge:
 
       - name: Tools
         skills: |
-          - Visual Studio 2017
+          - Visual Studio 2018
           - Visual Studio Code
           - MS SQL Management Studio
           - Azure Data Studio
