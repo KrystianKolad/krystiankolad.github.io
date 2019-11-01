@@ -44,8 +44,20 @@ education:
       time: 2015 - 2019
 
 experiences:
+    - role: .NET Developer
+      time: November 2019 - Present
+      company: Ceneo.pl 
+      details: |
+        Creating applications and REST APIs using .NET Framework and .NET Core with C# language. Modeling relational databases using Transact-SQL. Working with Microsoft Azure. Designing solutions for proper communication with Google Ads API.
+
+          - .NET Framework
+          - .NET Core
+          - C#
+          - T-SQL
+          - MS SQL 
+          - Azure
     - role: Junior .NET Developer
-      time: August 2018 - Present
+      time: August 2018 - October 2019
       company: Ceneo.pl 
       details: |
         Creating applications and REST APIs using .NET Framework and .NET Core with C# language. Modeling relational databases using Transact-SQL. Working with Microsoft Azure. Designing solutions for proper communication with Google Ads API.
