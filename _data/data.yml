@@ -32,11 +32,17 @@ sidebar:
 
         
     interests:
+      - item: .Net
+
       - item: DevOps
       
       - item: Docker
       
       - item: Kubernetes
+
+    certificates:
+      - name: AZ-900 Microsoft Azure Fundamentals
+        link: https://www.youracclaim.com/badges/9766fdb6-351f-4909-9bb9-989a4e3acfb3
 
 education:
     - degree: Computer Science
