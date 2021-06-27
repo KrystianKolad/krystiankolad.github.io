@@ -50,8 +50,20 @@ education:
       time: 2015 - 2019
 
 experiences:
+    - role: .Net Developer
+      time: November 2020 - present
+      company: Nexer Insight (former Sigma IT Poland)
+      details: |
+        Creating applications and REST APIs using .Net Framework and .Net Core with C# language. Modeling relational databases using Transact-SQL. Working with Microsoft Azure. Designign solutions for managing IoT devices using Azure components.
+
+          - .NET Framework
+          - .NET Core
+          - C#
+          - T-SQL
+          - MS SQL 
+          - Azure
     - role: .NET Developer
-      time: November 2019 - Present
+      time: November 2019 - October 2020
       company: Ceneo.pl 
       details: |
         Creating applications and REST APIs using .NET Framework and .NET Core with C# language. Modeling relational databases using Transact-SQL. Working with Microsoft Azure. Designing solutions for proper communication with Google Ads API.
@@ -124,13 +136,10 @@ knowledge:
         skills: |
           - C# (.NET Framework and .NET Core)
           - Transact-SQL
-          - NUnit
           - ASP.NET and ASP.NET Core
-          - Entity Framework
-          - Dapper
           - Docker
           - Kubernetes
-          - basic knowledge of cloud computing (Microsoft Azure)
+          - Microsoft Azure
           - basic Bash scripting
           - LaTeX
 
