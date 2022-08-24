@@ -50,7 +50,19 @@ education:
 
 experiences:
     - role: .Net Developer
-      time: November 2020 - present
+      time: July 2022 - present
+      company: PGS Software
+      details: |
+        Creating applications and REST APIs using .Net Framework and .Net Core with C# language. Modeling relational databases using Transact-SQL. Working with Microsoft Azure.
+
+          - .NET Framework
+          - .NET Core
+          - C#
+          - T-SQL
+          - MS SQL 
+          - Azure
+    - role: .Net Developer
+      time: November 2020 - June 2022
       company: Nexer Insight (former Sigma IT Poland)
       details: |
         Creating applications and REST APIs using .Net Framework and .Net Core with C# language. Modeling relational databases using Transact-SQL. Working with Microsoft Azure. Designign solutions for managing IoT devices using Azure components.
