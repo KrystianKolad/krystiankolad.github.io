@@ -50,8 +50,8 @@ education:
 
 experiences:
     - role: .Net Developer
-      time: July 2022 - present
-      company: PGS Software
+      time: July 2022 - July 2023
+      company: PGS Software | now Xebia
       details: |
         Creating applications and REST APIs using .Net Framework and .Net Core with C# language. Modeling relational databases using Transact-SQL. Working with Microsoft Azure.
 
