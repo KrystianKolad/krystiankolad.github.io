@@ -49,6 +49,17 @@ education:
       time: 2015 - 2019
 
 experiences:
+    - role: Senior .Net Developer
+      time: October 2023 - July 2026
+      company: Ciklum (project Mastercard)
+      details: |
+        Creating applications and REST APIs using .Net Framework and .Net Core with C# language. Maintaining and updating existing .Net applications. Working with integrating multiple banks APIs into existing and new systems. Creating and implementing arichitectual designs in new applications.
+
+          - .NET Framework
+          - .NET Core
+          - C#
+          - Azure
+          - Insomnia
     - role: .Net Developer
       time: July 2022 - July 2023
       company: PGS Software | now Xebia
