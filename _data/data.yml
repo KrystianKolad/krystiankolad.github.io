@@ -169,6 +169,7 @@ knowledge:
         skills: |
           - Visual Studio 2018
           - Visual Studio Code
+          - JetBrains Rider
           - MS SQL Management Studio
           - Azure Data Studio
           - Git (console and Git Extensions)
@@ -177,6 +178,7 @@ knowledge:
           - Terraform
           - Vagrant
           - Consul
+          - Insomnia
 
       - name: Practices
         skills: |
